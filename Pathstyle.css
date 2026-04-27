@@ -1,0 +1,144 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } 
+.container {
+    display: flex;
+    min-height: 100vh;
+    }
+
+    .panel-left {
+        width: 35%;
+        min-height: 100vh;
+        background-image: url('citypath.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+.overlay {
+        background: rgba(0, 0, 0, 0.55); 
+        width: 100%;
+        margin-top: 100px;
+        padding: 40px 50px;
+        border-radius: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 16px;
+    }
+.logo {
+        width: 150px;
+    }
+
+.projeto-nome {
+        color: white;
+        font-size: 80px;
+        font-family: 'Tektur' , cursive;
+    }
+
+.panel-right {
+    width: 65%;
+    background-color: #ffffff;
+    padding-top: 80px;
+    }
+
+.panel-right-top {
+        padding: 80px 40px 20px 40px;
+    }
+
+.quote {
+        font-family: 'Jockey One', cursive;
+        font-size: 30px;
+        color: #333;
+        line-height: 1.6;
+    }
+
+.panel-right-botton {
+        padding: 20px 40px 40px 40px;
+    }
+
+.botton-text {
+        font-family: 'Jockey One', cursive;
+        font-size: 30px;
+        color: #333;
+        line-height: 1.6;
+    }
+.panel-right-middle {
+        padding: 40px;
+        background-color: #ffffff;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.08),
+                    0 -10px 20px rgba(0,0,0,0.08);
+    }
+
+.form-row {
+    display: flex;
+    gap: 16px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-group label {
+    font-family: 'Jockey One', cursive;
+    font-size: 14px;
+    color: #555;
+}
+
+.form-group input {
+    border: 1.5px solid #ddd;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-size: 15px;
+    font-family: 'DM Sans', cursive;
+    color: #333;
+    outline: none;
+    transition: border-color 0.2s;
+    width: 100%;
+}
+
+.form-group input:focus {
+    border-color: #333;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+.password-error {
+    color: red;
+    font-size: 13px;
+    font-family: 'DM Sans', sans-serif;
+    display: none;
+    margin-top: 4px;
+}
+
+.texto-meio{
+    color: #555;
+    font-size: 20px;
+    font-family: 'Jockey One', cursive;
+    margin-bottom: 30px;
+}
+
+.btn-submit {
+    padding: 12px 40px;
+    background-color: #111;
+    color: white;
+    font-family: 'Jockey One', cursive;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.btn-submit:hover {
+    background-color: #444;
+} 
